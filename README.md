@@ -21,4 +21,5 @@ To run the project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/sahilbamoriya/Onboarding-Dashboard-Interface-using-Html-Css-Java-Script-.git
+  [ git clone https://github.com/sahilbamoriya/Onboarding-Dashboard-Interface-using-Html-Css-Java-Script-.git](https://github.com/SahilBamoriya/Onboarding-Dashboard-Interface-using-Html-Css-Java-Script-)
+   
