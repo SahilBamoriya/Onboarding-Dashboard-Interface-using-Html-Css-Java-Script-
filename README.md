@@ -23,3 +23,7 @@ To run the project locally:
    ```bash
 [https://github.com/sahilbamoriya/Onboarding-Dashboard-Interface-using-Html-Css-Java-Script-.git](https://github.com/SahilBamoriya/Onboarding-Dashboard-Interface-using-Html-Css-Java-Script-)
    
+![project1](https://github.com/user-attachments/assets/c55ea3e8-a992-449c-8ac3-f02d57f4bc60)
+![project2](https://github.com/user-attachments/assets/1fc47d5e-18bf-4559-a9e1-c8c2c3d7c4a6)
+![project3](https://github.com/user-attachments/assets/9a00e32e-9e77-46af-9e0f-b015ea228796)
+![project4](https://github.com/user-attachments/assets/f4cf6678-578c-485a-bc89-03de40a03663)
