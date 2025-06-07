@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Onboarding & Dashboard Interface</title>
+  <link rel="stylesheet" href="looks.css">
+</head>
+
+
+<body>
+
+  <div class="container">
+  <!-- cyan background div -->
+  <div class="cyanbackground"></div>
+  <!-- overall body struture -->
+  <div id="website">
+  <!-- for progress bar -->
+  <div class="progress-bar"><div class="progress" id="progressBar"></div></div>
+  
+  <form id="step-form">
+  <!-- Page 1-->
+  <div class="step active">
+  <h2>Personal Information</h2>
+  <label for="name">Full Name:</label>
+  <input type="text" id="name" required>
+  <label for="emailid">Email-ID:</label>
+  <input type="email" id="emailid" required>
+
+  <label for="gender">Gender:</label>
+  <select id="gender" required>
+  <option value="" disabled selected>Select Gender</option>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  </select>
+</div>
+
+<!-- Page 2 -->
+<div class="step">
+  <h2>Business Information</h2>
+  <label for="businessname">Business Name:</label>
+  <input type="text" id="businessname" required>
+
+  <label for="industrytype">Industry Type:</label>
+  <select id="industrytype" required>
+   <option value="" disabled selected>Select Industry</option>
+   <option value="finance">Finance</option>
+   <option value="healthcare">Healthcare</option>
+   <option value="tech">Technology</option>
+   <option value="retail">Retail</option>
+   <option value="other">Other</option>
+  </select>
+
+  <label for="companysize">Company Size:</label>
+  <select id="companysize" required>
+    <option value="" disabled selected>Select Size</option>
+    <option value="1-10">1-10</option>
+    <option value="11-50">11-50</option>
+    <option value="51-100">51-100</option>
+    <option value="101-200">101-200</option>
+    <option value="200+">200+</option>
+  </select>
+</div>
+
+<!-- Page 3 -->
+<div class="step">
+  <h2>Preferences</h2>
+  <label for="theme">Theme:</label>
+  <select id="theme" required>
+   <option value="system">System Default</option>
+   <option value="dark">Dark</option>
+   <option value="light">Light</option>
+</select>
+
+  <label for="dashboardlayout">Dashboard Layout:</label>
+  <select id="dashboardlayout" required>
+    <option value="grid">Grid</option>
+    <option value="list">List</option>
+    <option value="compact">Compact</option>
+  </select>
+</div>
+
+<!-- Navigation Buttons -->
+  <div class="buttons">
+  <button type="button" id="backbtn" onclick="nextPrev(-1)" disabled>Back</button>
+  <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+  </div>
+</form>
+</div>
+</div>
+</div>
+
+
+<!-- page-4 Dashboard -->
+<section id="dashboard" >
+ <h2>Welcome to Your Dashboard</h2>
+ <div class="user-info"></div><br>
+<h3>Weekly Updates :</h3><br>
+<div class="cards" role="list" >
+  <div class="card" role="listitem" >
+  <div class="number">9</div>
+  <div class="label">Team Members</div>
+</div>
+
+<div class="card" role="listitem" >
+  <div class="number">8</div>
+  <div class="label">Active Projects</div>
+</div>
+
+<div class="card" role="listitem" >
+  <div class="number">4</div>
+  <div class="label">Notifications</div>
+</div>
+</div>
+
+
+</section>
+
+
+<script src="working.js"></script>
+</body>
+</html>
